@@ -4,5 +4,5 @@ Scripturile trebuie să implementeze “componente de testare” pentru diverse 
 	utilizatori
 	acces fișiere, permisiuni
 	verificare conținut fișiere
-	diff-uri pe fișiere
+	diff-uri pe fișiere.
 
