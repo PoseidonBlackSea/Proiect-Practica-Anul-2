@@ -6,3 +6,4 @@ Scripturile trebuie să implementeze “componente de testare” pentru diverse 
 	verificare conținut fișiere
 	diff-uri pe fișiere.
 
+Interfata este creata in Glade ca apoi sa fie utilizata asupra cerintelor.
