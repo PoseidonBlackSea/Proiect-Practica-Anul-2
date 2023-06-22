@@ -14,15 +14,18 @@
           <object class="GtkLabel" id="Titlu">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">	- ConfigCheck: Explorând Configurațiile Mașinii Virtuale Linux -
-Un Mediu de Învățare Interactiv pentru Studenții la Sisteme de Operare</property>
+            <property name="label" translatable="yes">	
+	- ConfigCheck: Explorând Configurațiile Mașinii Virtuale Linux -
+  Mediu de Învățare Interactiv pentru Studenții la Sisteme de Operare  
+</property>
             <attributes>
               <attribute name="font-desc" value="Chilanka Bold 14"/>
             </attributes>
           </object>
           <packing>
-            <property name="expand">False</property>
+            <property name="expand">True</property>
             <property name="fill">True</property>
+            <property name="padding">3</property>
             <property name="position">0</property>
           </packing>
         </child>
@@ -40,12 +43,14 @@ Un Mediu de Învățare Interactiv pentru Studenții la Sisteme de Operare</prop
                     <property name="label" translatable="yes">Informatii
 Utilizatori</property>
                     <property name="visible">True</property>
+                    <property name="app-paintable">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
+                    <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">3</property>
                     <property name="position">0</property>
                   </packing>
                 </child>
@@ -58,8 +63,9 @@ Fisiere &amp; Permisiuni</property>
                     <property name="receives-default">True</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
+                    <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">3</property>
                     <property name="position">1</property>
                   </packing>
                 </child>
@@ -72,8 +78,9 @@ Continut Fisiere</property>
                     <property name="receives-default">True</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
+                    <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">3</property>
                     <property name="position">2</property>
                   </packing>
                 </child>
@@ -86,28 +93,31 @@ Continut Fisiere</property>
                     <property name="image-position">top</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
+                    <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">3</property>
                     <property name="position">3</property>
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton">
+                  <object class="GtkButton" id="Exit">
                     <property name="label" translatable="yes">Exit</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">False</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
+                    <property name="expand">True</property>
                     <property name="fill">True</property>
+                    <property name="padding">3</property>
                     <property name="position">4</property>
                   </packing>
                 </child>
               </object>
               <packing>
-                <property name="expand">False</property>
+                <property name="expand">True</property>
                 <property name="fill">True</property>
+                <property name="padding">5</property>
                 <property name="position">0</property>
               </packing>
             </child>
@@ -115,20 +125,21 @@ Continut Fisiere</property>
               <object class="GtkImage">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="pixbuf">../Ilustrations/1x/Artboard 1.png</property>
+                <property name="pixbuf">../Ilustrations/welcome.jpg</property>
               </object>
               <packing>
-                <property name="expand">False</property>
+                <property name="expand">True</property>
                 <property name="fill">True</property>
-                <property name="padding">8</property>
+                <property name="padding">3</property>
                 <property name="pack-type">end</property>
                 <property name="position">1</property>
               </packing>
             </child>
           </object>
           <packing>
-            <property name="expand">False</property>
+            <property name="expand">True</property>
             <property name="fill">True</property>
+            <property name="padding">3</property>
             <property name="position">1</property>
           </packing>
         </child>
