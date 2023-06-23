@@ -7,3 +7,10 @@ Scripturile trebuie să implementeze “componente de testare” pentru diverse 
 	diff-uri pe fișiere.
 
 Interfata este creata in Glade ca apoi sa fie utilizata asupra cerintelor.
+
+Functionalitati:
+1.
+2.
+3.
+4.
+5. Can apasa pe butonul Exit se iese din program
