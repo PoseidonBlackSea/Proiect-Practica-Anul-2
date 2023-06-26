@@ -105,7 +105,7 @@ Continut Fisiere</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">False</property>
-                    <signal name="clicked" handler="on_Exit_clicked" object="Meniu" swapped="no"/>
+                    <signal name="clicked" handler="zenity --info --text=$(test)&#10;" object="Meniu" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>

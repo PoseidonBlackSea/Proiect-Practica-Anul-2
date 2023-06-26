@@ -46,6 +46,7 @@ Utilizatori</property>
                     <property name="app-paintable">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <signal name="clicked" handler="on_Utilizatori_clicked" object="Meniu" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>
@@ -101,13 +102,12 @@ Continut Fisiere</property>
                 </child>
                 <child>
                   <object class="GtkButton" id="Exit">
-		    <property name="label" translatable="yes">Exit</property>
-		    <property name="visible">True</property>
-		    <property name="can-focus">True</property>
-		    <property name="receives-default">False</property>
-		    <signal name="clicked" handler="on_Exit_clicked" object="Meniu" swapped="no"/>
-		  </object>
-
+                    <property name="label" translatable="yes">Exit</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">False</property>
+                    <signal name="clicked" handler="on_Exit_clicked" object="Meniu" swapped="no"/>
+                  </object>
                   <packing>
                     <property name="expand">True</property>
                     <property name="fill">True</property>
