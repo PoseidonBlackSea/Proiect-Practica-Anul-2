@@ -5,8 +5,8 @@ file_path=$(zenity --file-selection --title="Selectați fișierul")
 
 # Verificam faca s-a selectat un fisier
 if [ -z "$file_path" ]; then
-    zenity --error --text="Nu ați selectat niciun fișier!"
-    exit 1
+    	zenity --error --text="Nu ați selectat niciun fișier!"
+    	exit 1
 fi
 
 # Furam Informatiile despre fisier 

@@ -78,6 +78,7 @@ Continut Fisiere</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
+                    <signal name="clicked" handler="on_verificare_continut_fisiere_clicked" object="Meniu" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>
@@ -93,6 +94,7 @@ Continut Fisiere</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
                     <property name="image-position">top</property>
+                    <signal name="clicked" handler="on_diff_uri_pe_fisiere_clicked" object="Meniu" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>

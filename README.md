@@ -19,7 +19,8 @@ DESCRIERE:
 			Daca nu selectam ne apare o casuta Nu ati selectat nici un fisier!
 		3.Continut fisiere
 			Cerem printr-o fereasta sa se selecteze un fisir, urmand sa-mi afiseze continutul acestuia prin intermediul unei fereste Zenity.
-		4.
+		4. Diffuri pe Fisiere
+			Cerem sa se selecteze doua fisiere dupa care prin diff side-by-side verificam diferentele si le afisam prin Zenity
 		5. Exit
 			Apasand butonul Exit iesim din program.
 
