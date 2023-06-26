@@ -73,7 +73,7 @@ Fisiere &amp; Permisiuni</property>
                 </child>
                 <child>
                   <object class="GtkButton" id="verificare continut fisiere">
-                    <property name="label" translatable="yes">      Verificare
+                    <property name="label" translatable="yes">	 Afisare
 Continut Fisiere</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
@@ -89,7 +89,8 @@ Continut Fisiere</property>
                 </child>
                 <child>
                   <object class="GtkButton" id="diff-uri pe fisiere">
-                    <property name="label" translatable="yes">Diff-uri pe Fisiere</property>
+                    <property name="label" translatable="yes">  Diferente 
+Intre Fisiere</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>
