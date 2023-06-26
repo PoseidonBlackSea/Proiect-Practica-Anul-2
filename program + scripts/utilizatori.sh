@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Obține informații despre utilizatori
+# Informatii utilizatori
 users_info=$(cat /etc/passwd)
 
-# Setează dimensiunile ferestrei Zenity
+# setam dimensiunea GUI ului
 width=500
 height=800
 
-# Afișează informațiile într-o fereastră Zenity cu scrollbar
+# afisam informatiile
 zenity --text-info --title "Informații Utilizatori" --width="$width" --height="$height" --filename=/dev/stdin <<< "$(while IFS=':' read -r username x uid gid gecos home shell; do
     echo "Utilizatorul \"$username\" are următoarele informații:"
     echo "Nume utilizator: $username"

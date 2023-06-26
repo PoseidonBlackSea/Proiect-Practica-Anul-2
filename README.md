@@ -9,12 +9,14 @@ CERINTA:
 
 DESCRIERE:
 	Interfata este creata in Glade fiind utilizata asupra cerintelor.
-
+	Se folosesc limbajele bash (pentru functionalitati) si C (pentru interfata) impreuna cu Zenity
+	
 	Functionalitati:
 		1. Informatii Utilizatori 
-			Se afiseaza sub o interfata user friendly toate informatiile despre toti Utilizatorii din sistem 
-			Utilizam Zenity si limbaj bash.
-		2.
+			Se afiseaza sub o interfata user friendly informatiile despre toti Utilizatorii din sistem 
+		2. Informatii Fisiere si Permisiuni
+			Afisam cu Zenity o casuta unde selectam ce fisier dorim din tot sistemul apoi apasand Ok ne afiseaza informatiile despre acesta (Numele, Permisiuni, Grup, Owner, Data Curenta).
+			Daca nu selectam ne apare o casuta Nu ati selectat nici un fisier!
 		3.
 		4.
 		5. Exit
