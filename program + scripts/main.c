@@ -12,6 +12,10 @@ void on_AccessFisierePermisiuni_clicked(GtkButton *button, gpointer user_data) {
 	system("./fisierePermisiuni.sh &");
 }
 
+void on_verificare_continut_fisiere_clicked(GtkButton *button, gpointer user_data) {
+	system("./continutFisiere.sh &");
+}
+
 int main(int argc, char *argv[]) {
     GtkBuilder *builder;
     GtkWidget *window;
@@ -30,6 +34,10 @@ int main(int argc, char *argv[]) {
     //2.Fisiere & Permisiuni
     GtkWidget *permisiuni_button = GTK_WIDGET(gtk_builder_get_object(builder, "Access fisiere, Permisiuni"));
     g_signal_connect(permisiuni_button, "clicked", G_CALLBACK(on_AccessFisierePermisiuni_clicked), NULL);
+    
+    //3. Continut Fisiere
+    GtkWidget *continut_button = GTK_WIDGET(gtk_builder_get_object(builder, "verificare continut fisiere"));
+    g_signal_connect(continut_button, "clicked", G_CALLBACK(on_verificare_continut_fisiere_clicked), NULL);
     
     //5.Exit
     GtkWidget *exit_button = GTK_WIDGET(gtk_builder_get_object(builder, "Exit"));

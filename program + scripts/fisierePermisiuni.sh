@@ -15,7 +15,7 @@ file_info=$(stat -c "Nume fișier: %n
  Permisiuni: %A 
  Proprietar: %U 
  Grup: %G 
- Data ultimei modificări: %y" "$file_path")
+ Data ultimei modificări: %y" "$file_path" 2>/dev/null)
 
 # Afisam informatiile
 zenity --text-info --title "Informații Fisier și Permisiuni" --filename=<(echo "$file_info") --editable --width=500 --height=800 --ok-label="OK"

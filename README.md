@@ -17,7 +17,8 @@ DESCRIERE:
 		2. Informatii Fisiere si Permisiuni
 			Afisam cu Zenity o casuta unde selectam ce fisier dorim din tot sistemul apoi apasand Ok ne afiseaza informatiile despre acesta (Numele, Permisiuni, Grup, Owner, Data Curenta).
 			Daca nu selectam ne apare o casuta Nu ati selectat nici un fisier!
-		3.
+		3.Continut fisiere
+			Cerem printr-o fereasta sa se selecteze un fisir, urmand sa-mi afiseze continutul acestuia prin intermediul unei fereste Zenity.
 		4.
 		5. Exit
 			Apasand butonul Exit iesim din program.
